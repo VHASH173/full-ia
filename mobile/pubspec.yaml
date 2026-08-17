@@ -1,0 +1,17 @@
+name: nexuscode
+description: Terminal + IDE + GitHub + OSINT
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  socket_io_client: ^2.0.3+1
+  http: ^1.1.0
+
+flutter:
+  uses-material-design: true
